@@ -68,27 +68,25 @@ WellVibe is a mobile application designed to help users build healthy habits, tr
 
 <table>
   <tr>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 54" src="https://github.com/user-attachments/assets/5b8a6fbc-238b-4527-bea3-  4fd1d22609f6" width="170"/></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 54" src="https://github.com/user-attachments/assets/5b8a6fbc-238b-4527-bea3-4fd1d22609f6"  width="170"/></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 54" src="https://github.com/user-attachments/assets/4657000a-d22c-4b25-89a3-        9dfdb373b3fe" width="170"/></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 55" src="https://github.com/user-attachments/assets/a043fcdd-570c-45d4-9ca4-5beaae4e906c"  width="170"/></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 56 (1)" src="https://github.com/user-attachments/assets/4d721fe8-f124-4cc4-ba21-1453b3fcf239"  width="170"/></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 56 (2)" src="https://github.com/user-attachments/assets/dcfe4aaf-ec8a-41d7-90bd-6ff04ed2f43d"  width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 54" src="https://github.com/user-attachments/assets/5b8a6fbc-238b-4527-bea3-4fd1d22609f6" width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 55" src="https://github.com/user-attachments/assets/a043fcdd-570c-45d4-9ca4-5beaae4e906c" width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 56" src="https://github.com/user-attachments/assets/8128c97e-c36e-4aa9-8fff-b33c37305e28" width="170"/></td>
+  <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 56 (1)" src="https://github.com/user-attachments/assets/5cf7a7c9-4f25-47a9-8c66-7c3397917c69" width="170"/></td>   
 </tr>
   <tr>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 57" src="https://github.com/user-attachments/assets/6a0e732f-fb8a-464a-8451-006b4380784d"  width="170"/><br><b>Mood</b></td>
-    <td align="center"><imgalt="WhatsApp Image 2026-06-16 at 18 03 57 (1)" src="https://github.com/user-attachments/assets/7218cfc6-d813-406e-8492-adfaedfb9f81" width="170"/><br><b>Hydration</b></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 58" src="https://github.com/user-attachments/assets/9dedd603-36ae-4f3e-ab0f-0bc2a7adcbc7"  width="170"/><br><b>Reminder</b></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 04 21" src="https://github.com/user-attachments/assets/8ce8a86a-052f-47b4-8c67-60cb334022ff"  width="170"/><br><b>Weekly Summary</b></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 56 (2)" src="https://github.com/user-attachments/assets/8b7a0e92-7e1d-4f72-ace4-d4cbc878f52f" width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 57" src="https://github.com/user-attachments/assets/80b9a09d-80cf-48c0-8613-794565980c12" width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 57 (1)" src="https://github.com/user-attachments/assets/848f05f8-a571-4dd0-a72e-cae766d8c7b7" width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 58" src="https://github.com/user-attachments/assets/304a4989-e674-436b-9e05-3e3590092fd9" width="170"/></td>
   </tr>
   <tr>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 04 22" src="https://github.com/user-attachments/assets/d00628b3-b301-49e2-81d2-03b5a3bc1f43"  width="170"/><br><b>Achievements</b></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 04 23" src="https://github.com/user-attachments/assets/acdb9dd6-a657-4511-abdf-39b41b677dbd"  width="170"/><br><b>Settings</b></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 04 21 (1)" src="https://github.com/user-attachments/assets/fec7bd98-0a89-486d-bff0-18ddcfc79952" width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 04 21" src="https://github.com/user-attachments/assets/78dd1050-04b1-4795-8e85-e681e5fb94cb" width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 04 22" src="https://github.com/user-attachments/assets/9e13456a-0a8e-4aa7-8944-a31d18757c6a" width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 04 23" src="https://github.com/user-attachments/assets/550e2627-3f9f-484e-bc01-ee3207af4b98" width="170"/></td>
     <td></td>
   </tr>
 </table>
-
-
 
 ---
 
