@@ -68,11 +68,13 @@ WellVibe is a mobile application designed to help users build healthy habits, tr
 
 <table>
   <tr>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 54" src="https://github.com/user-attachments/assets/4657000a-d22c-4b25-89a3-        9dfdb373b3fe"" width="170"/><br><b>Welcome</b></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 55" src="https://github.com/user-attachments/assets/a043fcdd-570c-45d4-9ca4-5beaae4e906c"  width="170"/><br><b>Login</b></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 56 (1)" src="https://github.com/user-attachments/assets/4d721fe8-f124-4cc4-ba21-1453b3fcf239"  width="170"/><br><b>Dashboard</b></td>
-    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 56 (2)" src="https://github.com/user-attachments/assets/dcfe4aaf-ec8a-41d7-90bd-6ff04ed2f43d"  width="170"/><br><b>Habits</b></td>
-  </tr>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 54" src="https://github.com/user-attachments/assets/5b8a6fbc-238b-4527-bea3-  4fd1d22609f6" width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 54" src="https://github.com/user-attachments/assets/5b8a6fbc-238b-4527-bea3-4fd1d22609f6"  width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 54" src="https://github.com/user-attachments/assets/4657000a-d22c-4b25-89a3-        9dfdb373b3fe" width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 55" src="https://github.com/user-attachments/assets/a043fcdd-570c-45d4-9ca4-5beaae4e906c"  width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 56 (1)" src="https://github.com/user-attachments/assets/4d721fe8-f124-4cc4-ba21-1453b3fcf239"  width="170"/></td>
+    <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 56 (2)" src="https://github.com/user-attachments/assets/dcfe4aaf-ec8a-41d7-90bd-6ff04ed2f43d"  width="170"/></td>
+</tr>
   <tr>
     <td align="center"><img alt="WhatsApp Image 2026-06-16 at 18 03 57" src="https://github.com/user-attachments/assets/6a0e732f-fb8a-464a-8451-006b4380784d"  width="170"/><br><b>Mood</b></td>
     <td align="center"><imgalt="WhatsApp Image 2026-06-16 at 18 03 57 (1)" src="https://github.com/user-attachments/assets/7218cfc6-d813-406e-8492-adfaedfb9f81" width="170"/><br><b>Hydration</b></td>
