@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="@color/accent"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="0dp"
+    app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        Header section with icon, title and checkbox
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            Icon section with gradient background
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/habit_color_card"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                app:cardBackgroundColor="@color/mint_green"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="0dp">
+                <ImageView
+                    android:id="@+id/habit_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="14dp"
+                    android:src="@drawable/ic_habit_check"
+                    android:tint="@android:color/white" />
+            </com.google.android.material.card.MaterialCardView>
+
+            Title and description
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/habit_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Habit Name"
+                    android:textColor="@color/text_primary"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium"
+                    android:letterSpacing="-0.01" />
+
+                <TextView
+                    android:id="@+id/habit_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:text="Description"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:alpha="0.7" />
+            </LinearLayout>
+
+            Checkbox
+            <CheckBox
+                android:id="@+id/habit_checkbox"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/habit_checkbox"
+                android:button="@null"
+                android:checked="false" />
+        </LinearLayout>
+
+        Stats section
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            Streak badge
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bg_habit_badge"
+                android:paddingHorizontal="14dp"
+                android:paddingVertical="8dp"
+                android:gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🔥"
+                    android:textSize="16sp"
+                    android:layout_marginEnd="6dp" />
+                <TextView
+                    android:id="@+id/streak_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12 days"
+                    android:textColor="@color/mint_green"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            Target info
+            <TextView
+                android:id="@+id/habit_target_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Target: 3/day"
+                android:textColor="@color/text_secondary"
+                android:textSize="13sp"
+                android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+
+        Progress section
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="8dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Today's Progress"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="12sp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:letterSpacing="0.05" />
+                <TextView
+                    android:id="@+id/progress_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6/8"
+                    android:textColor="@color/text_primary"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium" />
+            </LinearLayout>
+
+            <com.google.android.material.progressindicator.LinearProgressIndicator
+                android:id="@+id/habit_progress_bar"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:max="100"
+                android:progress="60"
+                app:trackColor="@color/light_gray"
+                app:indicatorColor="@color/mint_green"
+                app:trackThickness="10dp"
+                app:trackCornerRadius="5dp" />
+        </LinearLayout>
+
+        Meta chips section
+        <com.google.android.material.chip.ChipGroup
+            android:id="@+id/habit_meta_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:chipSpacingHorizontal="8dp"
+            app:singleLine="true">
+            <com.google.android.material.chip.Chip
+                android:id="@+id/habit_frequency_chip"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:checkable="false"
+                android:text="Daily"
+                android:textSize="13sp"
+                app:chipBackgroundColor="@color/bg_secondary"
+                app:chipIcon="@drawable/ic_goal"
+                app:chipIconSize="18dp"
+                app:chipIconTint="@color/text_secondary"
+                app:chipMinHeight="36dp"
+                app:chipCornerRadius="18dp"
+                app:textStartPadding="4dp"
+                app:textEndPadding="10dp" />
+            <com.google.android.material.chip.Chip
+                android:id="@+id/habit_category_chip"
+                style="@style/Widget.MaterialComponents.Chip.Action"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:checkable="false"
+                android:text="Wellness"
+                android:textSize="13sp"
+                app:chipBackgroundColor="@color/bg_secondary"
+                app:chipIcon="@drawable/ic_habits"
+                app:chipIconSize="18dp"
+                app:chipIconTint="@color/text_secondary"
+                app:chipMinHeight="36dp"
+                app:chipCornerRadius="18dp"
+                app:textStartPadding="4dp"
+                app:textEndPadding="10dp" />
+        </com.google.android.material.chip.ChipGroup>
+
+        Options button (bottom right)
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp">
+            <ImageButton
+                android:id="@+id/habit_options_button"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="end"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Habit options"
+                android:padding="6dp"
+                android:src="@drawable/ic_settings"
+                android:tint="@color/text_secondary"
+                android:alpha="0.6" />
+        </FrameLayout>
+
+        Drag handle (hidden by default, can be shown programmatically)
+        <ImageView
+            android:id="@+id/drag_handle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:contentDescription="Drag to reorder"
+            android:src="@drawable/ic_drag_handle"
+            android:tint="@color/text_secondary" />
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

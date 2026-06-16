@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="habit_categories">
+        <item>Wellness</item>
+        <item>Fitness</item>
+        <item>Mindfulness</item>
+        <item>Productivity</item>
+        <item>Nutrition</item>
+        <item>Learning</item>
+        <item>Personal Growth</item>
+        <item>Relationships</item>
+        <item>Finance</item>
+        <item>Home</item>
+    </string-array>
+
+    <string-array name="habit_frequencies">
+        <item>Daily</item>
+        <item>Every other day</item>
+        <item>Weekly</item>
+        <item>Weekdays</item>
+        <item>Weekends</item>
+        <item>Monthly</item>
+    </string-array>
+</resources>

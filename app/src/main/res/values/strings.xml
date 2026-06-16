@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">WellVibe</string>
+    
+    <!-- Widget Description -->
+    <string name="app_widget_description">Quickly add habits, mood entries, or water intake</string>
+
+    <!-- Mood Journal Strings -->
+    <string name="mood_journal_title">Mood Journal</string>
+    <string name="mood_question">How are you feeling today?</string>
+    <string name="mood_note_hint">What\'s on your mind?</string>
+    <string name="save_entry">Save Entry</string>
+    <string name="past_entries">Past Entries</string>
+    <string name="select_mood">Please select a mood</string>
+    <string name="entry_saved">Entry saved!</string>
+
+    <!-- Hydration Reminder Strings -->
+    <string name="water_goal">%1$d ml daily goal</string>
+    <string name="next_reminder">Next: %1$s</string>
+    <string name="water_added">Added %1$d ml!</string>
+    <string name="reminder_frequency">Every %1$d hours</string>
+    <string name="water_progress">%1$dml / %2$dml</string>
+    <string name="water_percentage">%1$d%%</string>
+
+    <!-- Notification Strings -->
+    <string name="water_reminder_title">Stay Hydrated!</string>
+    <string name="water_reminder_text">Don\'t forget to drink water. Your body needs it!</string>
+    <string name="mood_reminder_title">How are you feeling?</string>
+    <string name="mood_reminder_text">Take a moment to check in with your emotions</string>
+
+    <!-- Habit Tracker Strings -->
+    <string name="habit_tracker_title">Habit Tracker</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="edit_habit">Edit Habit</string>
+    <string name="delete_habit">Delete Habit</string>
+    <string name="habit_name_hint">Enter habit name</string>
+    <string name="habit_target_hint">Set target (e.g., 8 for glasses of water)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirm_delete_habit">Are you sure you want to delete this habit?</string>
+    <string name="habit_added">Habit added successfully!</string>
+    <string name="habit_updated">Habit updated successfully!</string>
+    <string name="habit_deleted">Habit deleted successfully!</string>
+    <string name="enter_habit_name">Please enter a habit name</string>
+    <string name="enter_valid_target">Please enter a valid target value</string>
+</resources>

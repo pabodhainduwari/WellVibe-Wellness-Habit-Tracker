@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- System Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- New Green Color Palette -->
+    <color name="primary">#227325</color>
+    <color name="primary_light">#81C784</color>
+    <color name="primary_lighter">#C8E6C9</color>
+    <color name="primary_dark">#388E3C</color>
+    <color name="primary_darker">#1B5E20</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent">#69F0AE</color>
+    <color name="accent_light">#B9F6CA</color>
+    <color name="accent_dark">#00C853</color>
+    
+    <!-- Background Colors -->
+    <color name="background_light">#E8F5E9</color>
+    <color name="background_soft">#F1F8E9</color>
+    <color name="background">#FFFFFF</color>
+    <color name="background_solid">#E8F5E9</color>
+    <!-- Aliases for layouts -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#1B5E20</color>
+    <color name="text_secondary">#388E3C</color>
+    <color name="text_tertiary">#4CAF50</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="dark_gray">#696969</color>
+    <color name="light_gray">#F0F0F0</color>
+
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+    <color name="error">#F44336</color>
+    <color name="info">#2196F3</color>
+
+    <!-- Water/Hydration Colors -->
+    <color name="water_primary">#2196F3</color>
+    <color name="water_secondary">#64B5F6</color>
+    <color name="water_light">#BBDEFB</color>
+    <color name="water_dark">#1976D2</color>
+
+    <!-- Mood Colors -->
+    <color name="mood_energetic">#FFEB3B</color>
+    <color name="mood_happy">#4CAF50</color>
+    <color name="mood_calm">#2196F3</color>
+    <color name="mood_focused">#388E3C</color>
+    <color name="mood_tired">#795548</color>
+
+    <!-- Chart Colors -->
+    <color name="chart_primary">#4CAF50</color>
+    <color name="chart_secondary">#81C784</color>
+    <color name="chart_tertiary">#2196F3</color>
+    <color name="chart_quaternary">#69F0AE</color>
+
+    <!-- UI Components -->
+    <color name="gold">#FFD700</color>
+    <color name="gold_light">#FFF4CC</color>
+    <color name="bg_primary">#FFFFFF</color>
+    <color name="bg_secondary">#F1F8E9</color>
+    <color name="primary_soft">#F1F8E9</color>
+    <color name="primary_surface">#E8F5E9</color>
+    <color name="primary_transparent">#1A4CAF50</color>
+
+    <!-- Overlay Colors -->
+    <color name="overlay_light">#1A4CAF50</color>
+    <color name="overlay_medium">#521B5E20</color>
+    <color name="overlay_dark">#991B5E20</color>
+
+    <!-- Previously removed/aliased colors that are still referenced -->
+    <color name="green_success">#4CAF50</color>
+    <color name="purple">#C8E6C9</color>
+    <color name="blue">#2196F3</color>
+    <color name="blue_water">#BBDEFB</color>
+    <color name="red_error">#F44336</color>
+    <color name="mint_green">#4CAF50</color>
+    <color name="light_mint_green">#81C784</color>
+    <color name="coral">#4CAF50</color>
+    <color name="orange">#FF9800</color>
+    <color name="orange_light">#FFECB3</color>
+    <color name="success_light">#C8E6C9</color>
+    <color name="success_medium">#E8F5E9</color>
+    <color name="success_dark">#388E3C</color>
+    <color name="warm_accent">#FFAB91</color>
+    <color name="warm_accent_light">#FFCCBC</color>
+    <color name="cool_accent">#90CAF9</color>
+    <color name="cool_accent_dark">#42A5F5</color>
+    <color name="premium_gradient_start">#388E3C</color>
+    <color name="premium_gradient_end">#69F0AE</color>
+    <color name="water_gradient_start">#2196F3</color>
+    <color name="water_gradient_end">#64B5F6</color>
+    <color name="flame_yellow">#FFCA28</color>
+    <color name="flame_orange">#FF9800</color>
+    <color name="flame_red">#F44336</color>
+    <color name="habit_header_gradient_start">#388E3C</color>
+    <color name="habit_header_gradient_end">#69F0AE</color>
+    <color name="complement_blue">#2196F3</color>
+    <color name="complement_blue_light">#64B5F6</color>
+    <color name="complement_pink_dark">#388E3C</color>
+    <color name="complement_pink_light">#C8E6C9</color>
+    <color name="primary_blue">#3DB2FF</color>
+    <color name="primary_pink">#FF6F91</color>
+
+    <color name="chip_selected_bg">#6C63FF</color>        <!-- Purple for selected -->
+    <color name="chip_unselected_bg">#E0E0E0</color>      <!-- Light gray for unselected -->
+    <color name="chip_text_selected">#FFFFFF</color>      <!-- White text for selected -->
+    <color name="chip_text_unselected">#424242</color>    <!-- Dark text for unselected -->
+
+
+
+</resources>

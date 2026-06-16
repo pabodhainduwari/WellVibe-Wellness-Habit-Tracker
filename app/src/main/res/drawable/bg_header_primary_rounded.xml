@@ -1,0 +1,20 @@
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+android:shape="rectangle">
+
+<!-- Smooth gradient background -->
+<gradient
+    android:startColor="@color/primary"
+    android:endColor="@color/primary_light"
+    android:angle="90" />
+
+<!-- Rounded bottom corners -->
+<corners
+    android:bottomLeftRadius="48dp"
+    android:bottomRightRadius="48dp" />
+
+<!-- Optional soft shadow for depth -->
+<padding
+    android:bottom="8dp" />
+</shape>
+

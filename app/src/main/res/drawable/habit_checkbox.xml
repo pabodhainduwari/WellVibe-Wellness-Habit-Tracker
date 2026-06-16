@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Checked state: filled circle with checkmark -->
+    <item android:state_checked="true" android:drawable="@drawable/habit_checkbox_checked" />
+
+    <!-- Pressed but unchecked: subtle fill with dark stroke -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="@color/bg_secondary" />
+            <stroke android:width="2dp" android:color="@color/dark_gray" />
+            <size android:width="24dp" android:height="24dp" />
+        </shape>
+    </item>
+
+    <!-- Default unchecked: transparent center with stroke -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="2dp" android:color="@color/dark_gray" />
+            <size android:width="24dp" android:height="24dp" />
+        </shape>
+    </item>
+</selector>
